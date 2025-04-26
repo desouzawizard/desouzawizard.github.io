@@ -1,11 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bull Run Fishing</title>
   <link href="style.css" rel="stylesheet" type="text/css"></link>
 </head>
 <body>
+    <div class="header">
+      <img
+        src="https://img.freepik.com/premium-vector/black-white-vector-fish-logo_567294-6334.jpg?w=900"
+        alt="Bull Run Fishing Logo"
+        class="logo" 
+      />
+   
+      <div onclick="showContent('home')">Home</div>
+      <div onclick="showContent('meet')">Meet Your Guide</div>
+      <div onclick="showContent('biting')">What's Biting?</div>
+      <div onclick="showContent('book')">Book a Tour</div>
+      <div onclick="showContent('faq')">FAQ's</div>
+      <div onclick="showContent('workshops')">Workshops</div>
+    </div>
+
+    <div id="home" class="content active">
+      <div class="container">
+        <h2 class="subheading left">Bull Run Fishing Guides</h2>
+        <div class="image right">
+          <img src="your-image.jpg" alt="Fishing Guide Image" />
+        </div>
+      </div>
+      <p class="left">Welcome to Bull Run Fishing Guides, where we offer fishing trips for anglers of all levels.
+
+About the Boat
+Model: Custom Center Console
+
+Length: 19 feet
+
+Capacity: Up to 3 people
+
+Engine: 90HP Suzuki
+
+The boat is built for a smooth and stable experience, perfect for exploring local waters.
+
+Included in Your Trip
+Rods, Reels & Tackle – All gear is provided.
+
+Live Bait & Lures – No extra cost for bait.
+
+Fishing License – Covered for everyone onboard.
+
+Whether you're after bass, catfish, or sunnies, everything you need is included.</p>
+    </div>
+    <!-- close home -->
+
+    <div id="meet" class="content">
+      <div class="container">
+        <h2 class="subheading left">About me</h2>
+        <div class="image right">
+          <img src="your-image.jpg" alt="Portrait" />
+        </div>
+      </div>
+      <p class="left">
+        My name is Isaac, and I have experience fishing the Bull Run River and am offering my services to help you get on fish and learn what methods work best for you! I will help you catch monster cats and record bass, and for the right price, even filet your catch for you. Explore my site and contact me to see availability and pricing!
+      </p>
+    </div>
+
+    <div id="biting" class="content">
+      <h2 class="subheading">What's Biting?</h2>
+      <p>What fish species we will target</p>
+      <div class="containerA">
+        <div class="box box1">
+    <strong>Spring</strong>
+    <p>As the waters warm up, fish become more active! FYI:</p>
+    <ul>
+        <li>– Best in early mornings & late afternoons.</li>
+        <li><strong>Largemouth Bass</strong> – Prime time for spawning behavior.</li>
+        <li><strong>Crappie</strong> – Best near brush piles and protecting spawn.</li>
+    </ul>
+    <p><strong>Availability:</strong> Full-day trips are more frequent in spring, allowing for extended time on the water.</p>
+</div>
+
+<div class="box box2">
+    <strong>Summer</strong>
+    <p>Peak season for aggressive feeding! Expect:</p>
+    <ul>
+        <li><strong>Catfish</strong> – Best after sunset or in deep waters.</li>
+        <li><strong>Smallmouth Bass</strong> – Chase more aggressively, out slightly deeper.</li>
+        <li><strong>Sunfish & Bluegill</strong> – Great for beginners. Bite all summer long</li>
+    </ul>
+    <p><strong>Availability:</strong> More full-day trips in summer, especially early mornings and dusk for better bites.</p>
+</div>
+
+<div class="box box3">
+    <strong>Fall</strong>
+    <p>Fish start feeding aggressively before winter. Targets include:</p>
+    <ul>
+        <li><strong>Catfish</strong> – Cooler temps bring them shallow. And get greedy before winter</li>
+        <li><strong>Largemouth Bass</strong> – chase schools, perfect for topwater and lures.</li>
+    </ul>
+    <p><strong>Availability:</strong> Fewer full-day trips, but excellent half-day morning excursions.</p>
+</div>
+        <div class="image right">
+          <img src="your-image.jpg" alt="Portrait" />
+        </div>
+      </div>
+      <!-- close ContainerA -->
+    </div>
+
+    <div id="book" class="content">
+      <h2 class="subheading">Book a Tour</h2>
+      <p>Select your guide package</p>
+      <div class="containerB">
+        <div class="box box1">
+          4-Hour Half-day "The Blitz"
+          <ul class="a">
+            <li>Rods Included</li>
+            <li>Icebox</li>
+            <li>Jigging and Trolling mini workshop upon request</li>
+            <li>Good deal</li>
+            <li>Mostly Targeting Bass</li>
+            <li>Perfect for catching the Morning or Evening bite</li>
+          </ul>
+          <span class="material-symbols-outlined"> done_outline </span>
+        </div>
+        <div class="box box2">
+          8-Hour Full-day "The Chase"
+          <br />
+          <ul class="a">
+            <li>Rods Included</li>
+            <li>Icebox</li>
+            <li>Keep what you catch + free filet service</li>
+            <li>Great deal</li>
+            <li>Plenty of time to catch Catfish</li>
+          </ul>
+          <span class="material-symbols-outlined"> done_outline </span>
+        </div>
+        <div class="box box3">
+          10-Hour Full-day "The Haul"
+          <ul class="a">
+            <li>Rods Included</li>
+            <li>Icebox</li>
+            <li>Keep what you catch + Free filet service</li>
+            <li>Best deal</li>
+            <li>Perfect for Birthdays, Holidays</li>
+            <li>
+              Most time on the water with greatest variety of spots showcased
+            </li>
+            <li>Most time for multi-species angling</li>
+          </ul>
+          <span class="material-symbols-outlined"> done_outline </span>
+        </div>
+        <div class="box contact">
+          Contact here
+          <ul class="social-list">
+            <li>
+              <a href="https://www.facebook.com" target="_blank"
+                ><img
+                  src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-256.png"
+                  alt="Facebook"
+                  class="social-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank"
+                ><img
+                  src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-256.png"
+                  alt="Instagram"
+                  class="social-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><img
+                  src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png"
+                  alt="LinkedIn"
+                  class="social-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="mailto:your-email@example.com"
+                ><img
+                  src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/mail-512.png"
+                  alt="Email"
+                  class="social-icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- close ContainerB -->
+    </div>
+
+    <div id="workshops" class="content">
+      <h2 class="subheading">Workshops</h2>
+      <div class="workshop-container">
+        <div class="workshop-description">
+          <p>
+            Because we learn best from others face to face, I also offer private
+            workshops, ideal for group settings or individual mentor
+            experiences. Schedule my fishing workshops to learn techniques,
+            seasonal strategies, and hands-on skills and get your questions
+            answered on land, in a classroom, parking lot or wherever you want
+            me.
+          </p>
+        </div>
+
+        <div class="workshop-option" onclick="toggleDetails('Cats')">
+          <strong>Catfishing - Bottom Feeders - Bait Fishing</strong>
+          <div id="Cats" style="display: none">
+            Learn essential baiting techniques well suited for catfish, carp,
+            and other forms of fishing with bait. This ain't your earthworm and
+            bobber! 1 hour minimum, price negotiable.
+          </div>
+        </div>
+
+        <div class="workshop-option" onclick="toggleDetails('Bass')">
+          <strong>Largemouth Bass & Sunfish</strong>
+          <div id="Bass" style="display: none">
+            Learn how to catch America's most popular discipline of freshwater
+            fishing and understand how to catch bass, with seasonal advice,
+            importance of lure choice, how to Jig, and how to rig my favorite
+            rigs to catch bass. I also share brief tips on how to catch other
+            popular species like sunfish and crappie upon request. 1 hour
+            minimum, price negotiable.
+          </div>
+        </div>
+      </div>
+      <div class="workshop-option contact">
+        Contact here
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img
+                src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-256.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img
+                src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-256.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com" target="_blank"
+              ><img
+                src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="mailto:your-email@example.com"
+              ><img
+                src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/mail-512.png"
+                alt="Email"
+                class="social-icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="faq" class="content">
+      <h2 class="subheading">Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <strong>What fishing services do you offer?</strong>
+          <div class="faq-answer">
+            I offer full-day, half-day tours, and specialized workshops tailored to your
+            experience level and target species.
+          </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <strong>What equipment should I bring?</strong>
+          <div class="faq-answer">
+            I provide all necessary equipment, but feel free to bring your
+            favorite gear, or just some food and drinks.
+          </div>
+        </div>
+      </div>
+
+      <!-- Radio buttons for feedback -->
+      <div class="faq-container">
+        <label>Was this FAQ helpful?</label>
+        <label><input type="radio" name="feedback" value="yes" /> Yes</label>
+        <label><input type="radio" name="feedback" value="no" /> No</label>
+      </div>
+
+      <!-- Feedback box -->
+      <div class="feedback-box">
+        <label for="feedback">Leave feedback:</label>
+        <input type="text" id="feedback" placeholder="Your comments here..." />
+        <button onclick="submitFeedback()">Submit</button>
+      </div>
+    </div>
+  </body>
   hello
   <script src="script.js"></script>
 </body>
