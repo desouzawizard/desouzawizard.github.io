@@ -39,16 +39,15 @@ body {
 }
 
 .subheading {
-  font-size: 44px; /* Customize the size */
-  font-weight: bold; /* Optional: Makes it bold */
-  color: #333; /* Adjust text color if needed */
-}
+  font-size: 44px; 
+  font-weight: bold; 
+  color: #333; 
 
 .container {
   display: flex;
-  justify-content: space-between; /* Separates text and image */
-  align-items: center; /* Aligns them vertically */
-  padding: 10px; /* Adds space around the elements */
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px; 
 }
 
 .left {
@@ -62,8 +61,8 @@ body {
 }
 
 .image img {
-  height: 80px; /* Adjust based on your design */
-  width: auto; /* Keeps proportional scaling */
+  height: 80px; 
+  width: auto; 
 }
 .containerA {
   height: 100%;
